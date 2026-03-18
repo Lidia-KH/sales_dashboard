@@ -3,5 +3,7 @@ numpy
 scikit-learn
 statsmodels
 plotly
-streamlit
+
 fastapi
+streamlit
+altair<5
