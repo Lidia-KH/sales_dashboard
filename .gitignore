@@ -209,4 +209,5 @@ __marimo__/
 .data
 .data/raw
 
-.__pycache__
+__pycache__/
+*.py[cod]
