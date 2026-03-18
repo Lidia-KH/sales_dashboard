@@ -147,8 +147,3 @@ Potential enhancements include:
 * Automated anomaly detection
 * Multi-store analytics support
 
----
-
-## License
-
-This project is released under the MIT License.
