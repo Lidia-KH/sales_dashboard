@@ -96,8 +96,8 @@ with st.sidebar:
 
             TIME_GRAIN = st.radio(
                 "Time Grain",
-                options=['D', 'W', 'M', 'Y', 'H', 'MIN', 'S'],
-                format_func= lambda x: {'D':'Daily', 'W':'Weekly', 'M':'Monthly', 'Y':'Yearly', 'H':'Hourly', 'MIN':'Every Minute', 'S':'Every Second'}[x],
+                options=['D', 'W', 'ME', 'YE', 'H', 'MIN', 'S'],
+                format_func= lambda x: {'D':'Daily', 'W':'Weekly', 'ME':'Monthly', 'YE':'Yearly', 'H':'Hourly', 'MIN':'Every Minute', 'S':'Every Second'}[x],
                 index=2,
                 help="This sets the Time Grain configuration"
 
