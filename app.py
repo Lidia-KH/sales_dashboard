@@ -219,7 +219,7 @@ with tab1:
                     top_traffic = df_traffic.iloc[0]['traffic_source']
                 else:
                     top_traffic = np.nan
-
+# cac plots
                 if df_cac is not None:
                     latest_cac = df_cac['cac'].iloc[-1]
                 else:
@@ -259,7 +259,7 @@ with tab1:
                 )
 
                 st.plotly_chart(fig_bestseller, use_container_width=True)
-
+# marketing spend plots/part
                 if 'marketing_spend' in df.columns:
 
                     marketing_df = (

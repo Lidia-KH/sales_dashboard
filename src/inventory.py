@@ -11,7 +11,7 @@ def daily_sales(df):
 
     daily_sales = (
         daily_product_sales
-        .groupby('priduct')['quantity']
+        .groupby('product')['quantity']
         .mean()
         .reset_index()
         .rename(columns={'quantity':'avg_daily_sales'})
